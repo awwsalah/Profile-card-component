@@ -20,13 +20,17 @@ body{
     justify-content: center;
     align-items: center;
     background-color: var(--primary-color);
+    background-image: url(images/Oval\ Copy\ 30.png), url(images/Oval\ Copy\ 32.png);
+    background-repeat: no-repeat;
+    background-position: left top, right bottom -50px;
+    background-size: 976px;
 }
 
 .container{
     width: 350px;
     height: 374px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 5px 5px 20px var(--dark-grey);
     background-image: url(images/bg.png);
     background-size: 380px 140px;
@@ -35,7 +39,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 60px;
+    padding-top: 110px;
 }
 
 .card-top{
