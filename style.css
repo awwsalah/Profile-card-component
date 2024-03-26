@@ -25,6 +25,9 @@ body{
     background-position: left top, right bottom -50px;
     background-size: 976px;
 }
+img{
+    width: 100%;
+}
 
 .container{
     width: 350px;
@@ -48,21 +51,25 @@ body{
     justify-content: center;
     align-items: center;
     padding-bottom: 50px;
-    
+    border-bottom: 1px solid var(--dark-grey);
+    height: 70%;
 }
 
 .card-top img{
     width: 96px;
 }
+.card-bottom{
+    display: flex;
+    flex-direction: column;
+}
 
-.card-bottom {
+.flex-cards{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 40px;
-    border-top: 1px solid var(--dark-grey);
-    height: 50px;
-    padding: 50px;
+    max-height: 30%;
+    padding-bottom: 20px;
     
 }
 
